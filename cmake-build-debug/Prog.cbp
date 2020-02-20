@@ -8,34 +8,35 @@
 		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Prog">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Prog" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/Prog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/."/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -46,21 +47,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prog"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prog"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Prog/fast">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Prog" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/Prog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/."/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -71,31 +73,32 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prog/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prog/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runTerm">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/runTerm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/runTerm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/."/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -106,21 +109,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 runTerm"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 runTerm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runTerm/fast">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/runTerm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/runTerm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/."/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -131,21 +135,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 runTerm/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 runTerm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -156,21 +160,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -181,21 +185,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -206,21 +210,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest"/>
+				<Option output="/home/msobral/CLionProjects/Teste2/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest/include"/>
-					<Add directory="/home/msobral/CLionProjects/Prg2Template/googletest"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest/include"/>
+					<Add directory="/home/msobral/CLionProjects/Teste2/googletest"/>
 					<Add directory="/usr/include/c++/6"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
 					<Add directory="/usr/include/c++/6/backward"/>
@@ -231,38 +235,42 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Prg2Template/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/msobral/CLionProjects/Teste2/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/Terminal.cpp">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/Terminal.cpp">
 			<Option target="runTerm"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/Terminal.h">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/Terminal.h">
 			<Option target="runTerm"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/googletest/src/gtest-all.cc">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/googletest/src/gtest_main.cc">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/main.cpp">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/main.cpp">
 			<Option target="Prog"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/termtest.cpp">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/prglib.h">
+			<Option target="Prog"/>
 			<Option target="runTerm"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/CMakeLists.txt">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/termtest.cpp">
+			<Option target="runTerm"/>
+		</Unit>
+		<Unit filename="/home/msobral/CLionProjects/Teste2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/googletest/CMakeLists.txt">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\googletest\"/>
 		</Unit>
-		<Unit filename="/home/msobral/CLionProjects/Prg2Template/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/msobral/CLionProjects/Teste2/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\googletest\cmake\"/>
 		</Unit>
 	</Project>

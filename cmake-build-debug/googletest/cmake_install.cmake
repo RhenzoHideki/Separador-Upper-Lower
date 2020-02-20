@@ -1,4 +1,4 @@
-# Install script for directory: /home/msobral/CLionProjects/Prg2Template/googletest
+# Install script for directory: /home/msobral/CLionProjects/Teste2/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
