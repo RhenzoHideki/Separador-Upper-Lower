@@ -1,4 +1,4 @@
-# Install script for directory: /home/aluno/CLionProjects/Fila_Separador_Maiusculas_Minusculas
+# Install script for directory: /home/aluno/CLionProjects/Git
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/aluno/CLionProjects/Fila_Separador_Maiusculas_Minusculas/cmake-build-debug/googletest/cmake_install.cmake")
+  include("/home/aluno/CLionProjects/Git/cmake-build-debug/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aluno/CLionProjects/Fila_Separador_Maiusculas_Minusculas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aluno/CLionProjects/Git/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

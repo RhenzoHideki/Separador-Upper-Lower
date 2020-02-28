@@ -1,4 +1,4 @@
-# Install script for directory: /home/aluno/CLionProjects/Fila_Separador_Maiusculas_Minusculas/googletest
+# Install script for directory: /home/aluno/CLionProjects/Git/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
