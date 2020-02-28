@@ -7,6 +7,6 @@ add_executable(Prog main.cpp)
 add_subdirectory(googletest)
 include_directories(. googletest/include googletest)
 
-add_executable(runTerm termtest.cpp Terminal.cpp Terminal.h prglib.h)
+add_executable(runTerm termtest.cpp Terminal.cpp Terminal.h)
 
 target_link_libraries(runTerm gtest gtest_main util)
